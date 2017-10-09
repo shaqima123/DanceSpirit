@@ -14,6 +14,7 @@
 		12878F2F1F8B14F500D4BBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12878F2D1F8B14F500D4BBFB /* LaunchScreen.storyboard */; };
 		12878F3A1F8B14F500D4BBFB /* DanceSpiritTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12878F391F8B14F500D4BBFB /* DanceSpiritTests.swift */; };
 		12878F451F8B14F500D4BBFB /* DanceSpiritUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12878F441F8B14F500D4BBFB /* DanceSpiritUITests.swift */; };
+		36850F83A5F6FE62B79A9182 /* Pods_DanceSpirit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3B9EB75952A6066ADACE65 /* Pods_DanceSpirit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		12878F401F8B14F500D4BBFB /* DanceSpiritUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceSpiritUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12878F441F8B14F500D4BBFB /* DanceSpiritUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceSpiritUITests.swift; sourceTree = "<group>"; };
 		12878F461F8B14F500D4BBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3B9EB75952A6066ADACE65 /* Pods_DanceSpirit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanceSpirit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD110B3E5AAB3E355F63AF22 /* Pods-DanceSpirit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceSpirit.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit.release.xcconfig"; sourceTree = "<group>"; };
+		DF6E7CDA70DD84754F9DE350 /* Pods-DanceSpirit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceSpirit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36850F83A5F6FE62B79A9182 /* Pods_DanceSpirit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				12878F381F8B14F500D4BBFB /* DanceSpiritTests */,
 				12878F431F8B14F500D4BBFB /* DanceSpiritUITests */,
 				12878F221F8B14F500D4BBFB /* Products */,
+				15BAEED017E1381247A03BA3 /* Pods */,
+				5D4245249F2E2397CD270F97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = DanceSpiritUITests;
 			sourceTree = "<group>";
 		};
+		15BAEED017E1381247A03BA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF6E7CDA70DD84754F9DE350 /* Pods-DanceSpirit.debug.xcconfig */,
+				BD110B3E5AAB3E355F63AF22 /* Pods-DanceSpirit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D4245249F2E2397CD270F97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F3B9EB75952A6066ADACE65 /* Pods_DanceSpirit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12878F491F8B14F500D4BBFB /* Build configuration list for PBXNativeTarget "DanceSpirit" */;
 			buildPhases = (
+				4E112A22504A2DD224030288 /* [CP] Check Pods Manifest.lock */,
 				12878F1D1F8B14F500D4BBFB /* Sources */,
 				12878F1E1F8B14F500D4BBFB /* Frameworks */,
 				12878F1F1F8B14F500D4BBFB /* Resources */,
+				6F3FB697AB56B77BC15F479C /* [CP] Embed Pods Frameworks */,
+				DFE74F7DF0C6E913A81F2793 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E112A22504A2DD224030288 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DanceSpirit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F3FB697AB56B77BC15F479C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE74F7DF0C6E913A81F2793 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12878F1D1F8B14F500D4BBFB /* Sources */ = {
@@ -424,11 +505,13 @@
 		};
 		12878F4A1F8B14F500D4BBFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6E7CDA70DD84754F9DE350 /* Pods-DanceSpirit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZA747HXW4Q;
 				INFOPLIST_FILE = DanceSpirit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sqm.meitu.DanceSpirit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +522,13 @@
 		};
 		12878F4B1F8B14F500D4BBFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD110B3E5AAB3E355F63AF22 /* Pods-DanceSpirit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZA747HXW4Q;
 				INFOPLIST_FILE = DanceSpirit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sqm.meitu.DanceSpirit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
