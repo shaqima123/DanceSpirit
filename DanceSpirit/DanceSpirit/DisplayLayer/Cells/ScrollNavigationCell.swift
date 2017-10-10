@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+class ScrollNavigationCell: UICollectionViewCell {
+    var titleLabel: UILabel = UILabel()
+    var selectedView: UIView = UIView()
+}
