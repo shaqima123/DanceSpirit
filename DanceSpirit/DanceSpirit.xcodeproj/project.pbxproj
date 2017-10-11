@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		126C3EF61F8BD4C7003707FB /* ScrollNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126C3EF51F8BD4C7003707FB /* ScrollNavigationView.swift */; };
-		126C3EF81F8BD59B003707FB /* ScrollNavigationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126C3EF71F8BD59B003707FB /* ScrollNavigationCell.swift */; };
 		12878F251F8B14F500D4BBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12878F241F8B14F500D4BBFB /* AppDelegate.swift */; };
 		12878F2A1F8B14F500D4BBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12878F281F8B14F500D4BBFB /* Main.storyboard */; };
 		12878F2C1F8B14F500D4BBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12878F2B1F8B14F500D4BBFB /* Assets.xcassets */; };
 		12878F2F1F8B14F500D4BBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12878F2D1F8B14F500D4BBFB /* LaunchScreen.storyboard */; };
 		12878F3A1F8B14F500D4BBFB /* DanceSpiritTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12878F391F8B14F500D4BBFB /* DanceSpiritTests.swift */; };
 		12878F451F8B14F500D4BBFB /* DanceSpiritUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12878F441F8B14F500D4BBFB /* DanceSpiritUITests.swift */; };
+		128CD69B1F8D1FE000BA4F1D /* FDSlideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CD6961F8D1FE000BA4F1D /* FDSlideBar.m */; };
+		128CD69C1F8D1FE000BA4F1D /* FDSlideBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CD6981F8D1FE000BA4F1D /* FDSlideBarItem.m */; };
+		128CD69D1F8D1FE000BA4F1D /* FDSlideContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CD69A1F8D1FE000BA4F1D /* FDSlideContentView.m */; };
+		128CD6A11F8D204500BA4F1D /* DSPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CD6A01F8D204500BA4F1D /* DSPMainViewController.m */; };
+		128CD6A81F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CD6A61F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m */; };
+		128CD6A91F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128CD6A71F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib */; };
 		36850F83A5F6FE62B79A9182 /* Pods_DanceSpirit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3B9EB75952A6066ADACE65 /* Pods_DanceSpirit.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		126C3EF51F8BD4C7003707FB /* ScrollNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollNavigationView.swift; sourceTree = "<group>"; };
-		126C3EF71F8BD59B003707FB /* ScrollNavigationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollNavigationCell.swift; sourceTree = "<group>"; };
 		12878F211F8B14F500D4BBFB /* DanceSpirit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceSpirit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12878F241F8B14F500D4BBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12878F291F8B14F500D4BBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,6 +52,17 @@
 		12878F401F8B14F500D4BBFB /* DanceSpiritUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceSpiritUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12878F441F8B14F500D4BBFB /* DanceSpiritUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceSpiritUITests.swift; sourceTree = "<group>"; };
 		12878F461F8B14F500D4BBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128CD6951F8D1FE000BA4F1D /* FDSlideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSlideBar.h; sourceTree = "<group>"; };
+		128CD6961F8D1FE000BA4F1D /* FDSlideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSlideBar.m; sourceTree = "<group>"; };
+		128CD6971F8D1FE000BA4F1D /* FDSlideBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSlideBarItem.h; sourceTree = "<group>"; };
+		128CD6981F8D1FE000BA4F1D /* FDSlideBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSlideBarItem.m; sourceTree = "<group>"; };
+		128CD6991F8D1FE000BA4F1D /* FDSlideContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSlideContentView.h; sourceTree = "<group>"; };
+		128CD69A1F8D1FE000BA4F1D /* FDSlideContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSlideContentView.m; sourceTree = "<group>"; };
+		128CD69F1F8D204500BA4F1D /* DSPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSPMainViewController.h; sourceTree = "<group>"; };
+		128CD6A01F8D204500BA4F1D /* DSPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPMainViewController.m; sourceTree = "<group>"; };
+		128CD6A51F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSPMainPageCollectionViewCell.h; sourceTree = "<group>"; };
+		128CD6A61F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPMainPageCollectionViewCell.m; sourceTree = "<group>"; };
+		128CD6A71F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSPMainPageCollectionViewCell.xib; sourceTree = "<group>"; };
 		9F3B9EB75952A6066ADACE65 /* Pods_DanceSpirit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanceSpirit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD110B3E5AAB3E355F63AF22 /* Pods-DanceSpirit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceSpirit.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit.release.xcconfig"; sourceTree = "<group>"; };
 		DF6E7CDA70DD84754F9DE350 /* Pods-DanceSpirit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceSpirit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,7 +146,9 @@
 		126C3EEF1F8BCA39003707FB /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				126C3EF71F8BD59B003707FB /* ScrollNavigationCell.swift */,
+				128CD6A51F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.h */,
+				128CD6A61F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m */,
+				128CD6A71F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -141,6 +156,7 @@
 		126C3EF01F8BCA39003707FB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				128CD69E1F8D201A00BA4F1D /* Main */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -155,7 +171,7 @@
 		126C3EF21F8BCA39003707FB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				126C3EF51F8BD4C7003707FB /* ScrollNavigationView.swift */,
+				128CD6941F8D1FE000BA4F1D /* FDSlideBar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +229,28 @@
 				12878F461F8B14F500D4BBFB /* Info.plist */,
 			);
 			path = DanceSpiritUITests;
+			sourceTree = "<group>";
+		};
+		128CD6941F8D1FE000BA4F1D /* FDSlideBar */ = {
+			isa = PBXGroup;
+			children = (
+				128CD6951F8D1FE000BA4F1D /* FDSlideBar.h */,
+				128CD6961F8D1FE000BA4F1D /* FDSlideBar.m */,
+				128CD6971F8D1FE000BA4F1D /* FDSlideBarItem.h */,
+				128CD6981F8D1FE000BA4F1D /* FDSlideBarItem.m */,
+				128CD6991F8D1FE000BA4F1D /* FDSlideContentView.h */,
+				128CD69A1F8D1FE000BA4F1D /* FDSlideContentView.m */,
+			);
+			path = FDSlideBar;
+			sourceTree = "<group>";
+		};
+		128CD69E1F8D201A00BA4F1D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				128CD69F1F8D204500BA4F1D /* DSPMainViewController.h */,
+				128CD6A01F8D204500BA4F1D /* DSPMainViewController.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		15BAEED017E1381247A03BA3 /* Pods */ = {
@@ -344,6 +382,7 @@
 			files = (
 				12878F2F1F8B14F500D4BBFB /* LaunchScreen.storyboard in Resources */,
 				12878F2C1F8B14F500D4BBFB /* Assets.xcassets in Resources */,
+				128CD6A91F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib in Resources */,
 				12878F2A1F8B14F500D4BBFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,9 +464,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126C3EF81F8BD59B003707FB /* ScrollNavigationCell.swift in Sources */,
+				128CD69D1F8D1FE000BA4F1D /* FDSlideContentView.m in Sources */,
+				128CD69C1F8D1FE000BA4F1D /* FDSlideBarItem.m in Sources */,
+				128CD6A81F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m in Sources */,
 				12878F251F8B14F500D4BBFB /* AppDelegate.swift in Sources */,
-				126C3EF61F8BD4C7003707FB /* ScrollNavigationView.swift in Sources */,
+				128CD6A11F8D204500BA4F1D /* DSPMainViewController.m in Sources */,
+				128CD69B1F8D1FE000BA4F1D /* FDSlideBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
