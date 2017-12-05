@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125AF71E1FAF0A4F007BF67F /* DSPDivideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125AF71D1FAF0A4F007BF67F /* DSPDivideViewController.m */; };
 		12878F251F8B14F500D4BBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12878F241F8B14F500D4BBFB /* AppDelegate.swift */; };
 		12878F2A1F8B14F500D4BBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12878F281F8B14F500D4BBFB /* Main.storyboard */; };
 		12878F2C1F8B14F500D4BBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12878F2B1F8B14F500D4BBFB /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		128CD6A11F8D204500BA4F1D /* DSPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CD6A01F8D204500BA4F1D /* DSPMainViewController.m */; };
 		128CD6A81F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CD6A61F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m */; };
 		128CD6A91F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128CD6A71F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib */; };
+		12F391DC1FD6EDA00078F199 /* DSPDivideCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F391DB1FD6EDA00078F199 /* DSPDivideCollectionViewCell.m */; };
 		36850F83A5F6FE62B79A9182 /* Pods_DanceSpirit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3B9EB75952A6066ADACE65 /* Pods_DanceSpirit.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		125AF71C1FAF0A4F007BF67F /* DSPDivideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSPDivideViewController.h; sourceTree = "<group>"; };
+		125AF71D1FAF0A4F007BF67F /* DSPDivideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPDivideViewController.m; sourceTree = "<group>"; };
 		12878F211F8B14F500D4BBFB /* DanceSpirit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceSpirit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12878F241F8B14F500D4BBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12878F291F8B14F500D4BBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +67,9 @@
 		128CD6A51F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSPMainPageCollectionViewCell.h; sourceTree = "<group>"; };
 		128CD6A61F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPMainPageCollectionViewCell.m; sourceTree = "<group>"; };
 		128CD6A71F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSPMainPageCollectionViewCell.xib; sourceTree = "<group>"; };
+		12F391DA1FD6EDA00078F199 /* DSPDivideCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSPDivideCollectionViewCell.h; sourceTree = "<group>"; };
+		12F391DB1FD6EDA00078F199 /* DSPDivideCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPDivideCollectionViewCell.m; sourceTree = "<group>"; };
+		12F391E41FD6FF6C0078F199 /* DanceSpiritDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DanceSpiritDef.h; sourceTree = "<group>"; };
 		9F3B9EB75952A6066ADACE65 /* Pods_DanceSpirit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanceSpirit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD110B3E5AAB3E355F63AF22 /* Pods-DanceSpirit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceSpirit.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit.release.xcconfig"; sourceTree = "<group>"; };
 		DF6E7CDA70DD84754F9DE350 /* Pods-DanceSpirit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceSpirit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		125AF71B1FAF09D3007BF67F /* Divide */ = {
+			isa = PBXGroup;
+			children = (
+				125AF71C1FAF0A4F007BF67F /* DSPDivideViewController.h */,
+				125AF71D1FAF0A4F007BF67F /* DSPDivideViewController.m */,
+			);
+			path = Divide;
+			sourceTree = "<group>";
+		};
 		126C3EE91F8BC994003707FB /* DataLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,9 +162,8 @@
 		126C3EEF1F8BCA39003707FB /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				128CD6A51F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.h */,
-				128CD6A61F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m */,
-				128CD6A71F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib */,
+				12F391DE1FD6EDBC0078F199 /* Divide */,
+				12F391DD1FD6EDB10078F199 /* Main */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -156,6 +171,7 @@
 		126C3EF01F8BCA39003707FB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				125AF71B1FAF09D3007BF67F /* Divide */,
 				128CD69E1F8D201A00BA4F1D /* Main */,
 			);
 			path = Controllers;
@@ -164,6 +180,7 @@
 		126C3EF11F8BCA39003707FB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				12F391E41FD6FF6C0078F199 /* DanceSpiritDef.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -251,6 +268,25 @@
 				128CD6A01F8D204500BA4F1D /* DSPMainViewController.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		12F391DD1FD6EDB10078F199 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				128CD6A51F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.h */,
+				128CD6A61F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m */,
+				128CD6A71F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		12F391DE1FD6EDBC0078F199 /* Divide */ = {
+			isa = PBXGroup;
+			children = (
+				12F391DA1FD6EDA00078F199 /* DSPDivideCollectionViewCell.h */,
+				12F391DB1FD6EDA00078F199 /* DSPDivideCollectionViewCell.m */,
+			);
+			path = Divide;
 			sourceTree = "<group>";
 		};
 		15BAEED017E1381247A03BA3 /* Pods */ = {
@@ -467,9 +503,11 @@
 				128CD69D1F8D1FE000BA4F1D /* FDSlideContentView.m in Sources */,
 				128CD69C1F8D1FE000BA4F1D /* FDSlideBarItem.m in Sources */,
 				128CD6A81F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m in Sources */,
+				12F391DC1FD6EDA00078F199 /* DSPDivideCollectionViewCell.m in Sources */,
 				12878F251F8B14F500D4BBFB /* AppDelegate.swift in Sources */,
 				128CD6A11F8D204500BA4F1D /* DSPMainViewController.m in Sources */,
 				128CD69B1F8D1FE000BA4F1D /* FDSlideBar.m in Sources */,
+				125AF71E1FAF0A4F007BF67F /* DSPDivideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

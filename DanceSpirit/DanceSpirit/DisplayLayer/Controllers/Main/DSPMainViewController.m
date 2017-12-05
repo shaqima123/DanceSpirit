@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = [UIColor colorWithRed:0 / 255.0 green:128 / 255.0 blue:128 / 255.0 alpha:1.0];;
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
     [self setupSlideBar];
@@ -38,7 +38,7 @@
 // Set up a slideBar and add it into view
 - (void)setupSlideBar {
     FDSlideBar *sliderBar = [[FDSlideBar alloc] init];
-    sliderBar.backgroundColor = [UIColor redColor];
+    sliderBar.backgroundColor = [UIColor colorWithRed:0 / 255.0 green:128 / 255.0 blue:128 / 255.0 alpha:1.0];
     
     // Init the titles of all the item
     sliderBar.itemsTitle = @[@"直播",@"最热",@"最新",@"推荐"];
