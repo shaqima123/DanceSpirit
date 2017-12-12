@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12458E551FDD2E5D0062E3E0 /* MyCenterNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12458E541FDD2E5D0062E3E0 /* MyCenterNetworkManager.swift */; };
+		12458E571FDD367D0062E3E0 /* MyCenterServerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12458E561FDD367D0062E3E0 /* MyCenterServerAPI.swift */; };
+		12458E5C1FDE2B1C0062E3E0 /* MyCenterDataStorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12458E5B1FDE2B1C0062E3E0 /* MyCenterDataStorer.swift */; };
+		12458E5E1FDE2B3D0062E3E0 /* MyCenterDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12458E5D1FDE2B3D0062E3E0 /* MyCenterDataManager.swift */; };
 		125AF71E1FAF0A4F007BF67F /* DSPDivideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125AF71D1FAF0A4F007BF67F /* DSPDivideViewController.m */; };
 		12878F251F8B14F500D4BBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12878F241F8B14F500D4BBFB /* AppDelegate.swift */; };
 		12878F2A1F8B14F500D4BBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12878F281F8B14F500D4BBFB /* Main.storyboard */; };
@@ -42,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12458E541FDD2E5D0062E3E0 /* MyCenterNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCenterNetworkManager.swift; sourceTree = "<group>"; };
+		12458E561FDD367D0062E3E0 /* MyCenterServerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCenterServerAPI.swift; sourceTree = "<group>"; };
+		12458E5A1FDE1C5E0062E3E0 /* OCContainerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCContainerHeader.h; sourceTree = "<group>"; };
+		12458E5B1FDE2B1C0062E3E0 /* MyCenterDataStorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCenterDataStorer.swift; sourceTree = "<group>"; };
+		12458E5D1FDE2B3D0062E3E0 /* MyCenterDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCenterDataManager.swift; sourceTree = "<group>"; };
 		125AF71C1FAF0A4F007BF67F /* DSPDivideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSPDivideViewController.h; sourceTree = "<group>"; };
 		125AF71D1FAF0A4F007BF67F /* DSPDivideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPDivideViewController.m; sourceTree = "<group>"; };
 		12878F211F8B14F500D4BBFB /* DanceSpirit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceSpirit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +110,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12458E581FDE1C200062E3E0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				126C3EF11F8BCA39003707FB /* Utils */,
+				12458E591FDE1C200062E3E0 /* Component */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		12458E591FDE1C200062E3E0 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		125AF71B1FAF09D3007BF67F /* Divide */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +148,7 @@
 		126C3EEA1F8BC994003707FB /* LocalData */ = {
 			isa = PBXGroup;
 			children = (
+				12458E5B1FDE2B1C0062E3E0 /* MyCenterDataStorer.swift */,
 			);
 			path = LocalData;
 			sourceTree = "<group>";
@@ -130,6 +156,8 @@
 		126C3EEB1F8BC994003707FB /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				12458E541FDD2E5D0062E3E0 /* MyCenterNetworkManager.swift */,
+				12458E561FDD367D0062E3E0 /* MyCenterServerAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -137,6 +165,7 @@
 		126C3EEC1F8BC994003707FB /* PayLayer */ = {
 			isa = PBXGroup;
 			children = (
+				12458E5D1FDE2B3D0062E3E0 /* MyCenterDataManager.swift */,
 			);
 			path = PayLayer;
 			sourceTree = "<group>";
@@ -153,7 +182,6 @@
 			children = (
 				126C3EEF1F8BCA39003707FB /* Cells */,
 				126C3EF01F8BCA39003707FB /* Controllers */,
-				126C3EF11F8BCA39003707FB /* Utils */,
 				126C3EF21F8BCA39003707FB /* Views */,
 			);
 			path = DisplayLayer;
@@ -181,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				12F391E41FD6FF6C0078F199 /* DanceSpiritDef.h */,
+				12458E5A1FDE1C5E0062E3E0 /* OCContainerHeader.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -218,6 +247,7 @@
 		12878F231F8B14F500D4BBFB /* DanceSpirit */ = {
 			isa = PBXGroup;
 			children = (
+				12458E581FDE1C200062E3E0 /* Common */,
 				126C3EE91F8BC994003707FB /* DataLayer */,
 				126C3EED1F8BC994003707FB /* BusinessLayer */,
 				126C3EEE1F8BC995003707FB /* DisplayLayer */,
@@ -509,8 +539,12 @@
 				128CD69D1F8D1FE000BA4F1D /* FDSlideContentView.m in Sources */,
 				128CD69C1F8D1FE000BA4F1D /* FDSlideBarItem.m in Sources */,
 				128CD6A81F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.m in Sources */,
+				12458E551FDD2E5D0062E3E0 /* MyCenterNetworkManager.swift in Sources */,
+				12458E5E1FDE2B3D0062E3E0 /* MyCenterDataManager.swift in Sources */,
 				12F391DC1FD6EDA00078F199 /* DSPDivideCollectionViewCell.m in Sources */,
 				12878F251F8B14F500D4BBFB /* AppDelegate.swift in Sources */,
+				12458E5C1FDE2B1C0062E3E0 /* MyCenterDataStorer.swift in Sources */,
+				12458E571FDD367D0062E3E0 /* MyCenterServerAPI.swift in Sources */,
 				128CD6A11F8D204500BA4F1D /* DSPMainViewController.m in Sources */,
 				128CD69B1F8D1FE000BA4F1D /* FDSlideBar.m in Sources */,
 				125AF71E1FAF0A4F007BF67F /* DSPDivideViewController.m in Sources */,
@@ -681,12 +715,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZA747HXW4Q;
 				INFOPLIST_FILE = DanceSpirit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sqm.meitu.DanceSpirit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = DanceSpirit/Common/Utils/OCContainerHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -698,12 +734,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZA747HXW4Q;
 				INFOPLIST_FILE = DanceSpirit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sqm.meitu.DanceSpirit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = DanceSpirit/Common/Utils/OCContainerHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
