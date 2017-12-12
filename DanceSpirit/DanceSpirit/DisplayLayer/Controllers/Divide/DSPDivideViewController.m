@@ -11,7 +11,7 @@
 
 //Cell
 #import "DSPDivideCollectionViewCell.h"
-
+#import "DanceSpirit-Swift.h"
 
 @interface DSPDivideViewController ()<
 UICollectionViewDelegate,
@@ -27,7 +27,13 @@ UICollectionViewDataSource
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initView];
+    [self testNetwork];
     // Do any additional setup after loading the view.
+}
+
+- (void)testNetwork {
+    MyCenterDataManager *manager = [MyCenterDataManager shared];
+    [manager testTheData];
 }
 
 - (void)initView {
