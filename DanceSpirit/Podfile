@@ -8,4 +8,5 @@ target 'DanceSpirit' do
     pod 'SnapKit', '~> 4.0.0'
     pod 'Moya'
     pod 'ObjectMapper', '~> 3.0'
+    pod 'Masonry'
 end
