@@ -26,6 +26,7 @@
 		128CD6A91F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128CD6A71F8D226E00BA4F1D /* DSPMainPageCollectionViewCell.xib */; };
 		12F391DC1FD6EDA00078F199 /* DSPDivideCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F391DB1FD6EDA00078F199 /* DSPDivideCollectionViewCell.m */; };
 		36850F83A5F6FE62B79A9182 /* Pods_DanceSpirit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3B9EB75952A6066ADACE65 /* Pods_DanceSpirit.framework */; };
+		6227BBE420052F4E00913C32 /* DSUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6227BBE320052F4E00913C32 /* DSUserInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,9 @@
 		12F391DA1FD6EDA00078F199 /* DSPDivideCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSPDivideCollectionViewCell.h; sourceTree = "<group>"; };
 		12F391DB1FD6EDA00078F199 /* DSPDivideCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPDivideCollectionViewCell.m; sourceTree = "<group>"; };
 		12F391E41FD6FF6C0078F199 /* DanceSpiritDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DanceSpiritDef.h; sourceTree = "<group>"; };
+		6227BBE120052B2900913C32 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		6227BBE220052F4E00913C32 /* DSUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSUserInfo.h; sourceTree = "<group>"; };
+		6227BBE320052F4E00913C32 /* DSUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSUserInfo.m; sourceTree = "<group>"; };
 		9F3B9EB75952A6066ADACE65 /* Pods_DanceSpirit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanceSpirit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD110B3E5AAB3E355F63AF22 /* Pods-DanceSpirit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceSpirit.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit.release.xcconfig"; sourceTree = "<group>"; };
 		DF6E7CDA70DD84754F9DE350 /* Pods-DanceSpirit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceSpirit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanceSpirit/Pods-DanceSpirit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				12458E5B1FDE2B1C0062E3E0 /* MyCenterDataStorer.swift */,
+				6227BBE220052F4E00913C32 /* DSUserInfo.h */,
+				6227BBE320052F4E00913C32 /* DSUserInfo.m */,
 			);
 			path = LocalData;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			children = (
 				12F391E41FD6FF6C0078F199 /* DanceSpiritDef.h */,
 				12458E5A1FDE1C5E0062E3E0 /* OCContainerHeader.h */,
+				6227BBE120052B2900913C32 /* Singleton.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -547,6 +554,7 @@
 				12458E571FDD367D0062E3E0 /* MyCenterServerAPI.swift in Sources */,
 				128CD6A11F8D204500BA4F1D /* DSPMainViewController.m in Sources */,
 				128CD69B1F8D1FE000BA4F1D /* FDSlideBar.m in Sources */,
+				6227BBE420052F4E00913C32 /* DSUserInfo.m in Sources */,
 				125AF71E1FAF0A4F007BF67F /* DSPDivideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

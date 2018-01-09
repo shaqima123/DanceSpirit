@@ -6,9 +6,16 @@
 //  Copyright © 2017年 zj－db0737. All rights reserved.
 //
 
-#import "DSPMainViewController.h"
+//Model
+#import "DSUserInfo.h"
+
+//View
 #import "FDSlideBar.h"
 #import "DSPMainPageCollectionViewCell.h"
+
+//Controller
+#import "DSPMainViewController.h"
+
 
 @interface DSPMainViewController () <UICollectionViewDelegate, UICollectionViewDataSource, UIScrollViewDelegate>
 
@@ -24,7 +31,7 @@
     
     self.view.backgroundColor = [UIColor colorWithRed:0 / 255.0 green:128 / 255.0 blue:128 / 255.0 alpha:1.0];;
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-    
+
     [self setupSlideBar];
     [self setupCollectionView];
 }
